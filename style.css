@@ -1,0 +1,121 @@
+/* Write some CSS below */
+
+body {
+    color:black;
+    background-color:#01193C;
+    font-family: "Gothic A1", sans-serif;
+    text-align: center; 
+}
+  
+  .radial-simple {
+    background: radial-gradient(#0039BB,#01193C);
+  }
+  
+
+h1, h2{
+    font-family: "Gothic A1", sans-serif;
+}
+
+h1{
+font-size: 32px;
+font-weight: 900;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    color:#FB2209;
+}
+
+.btn-blue{
+text-decoration: none;
+background-color:#01193C;
+color: white;
+padding: 15px 25px;
+border-radius: 5px;
+}
+
+.btn-blue:hover{
+  background-color: #0039BB;
+  color: white;
+  }
+
+.a{
+text-decoration: none;
+}
+
+.card-white {
+background-color:white;
+box-shadow: #dfe3e859 5px 10px 15px;
+padding: 40px;
+margin: 40px auto;
+border-radius: 5px;
+width: 600px;
+transition: 0.5s;
+}
+
+.card-white:hover{
+transform: scale(1.10);
+}
+
+#img-circle {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+#formations ul li::before {
+  content: "🎓";
+}
+
+#foot ul li::before{
+  content:"⚽️";
+}
+
+#formations ul, #foot ul{
+  list-style-type: none;
+}
+
+#intro{
+  margin-bottom: 40px;
+}
+
+#social-media .list-inline {
+  padding-left: 0;
+}
+
+#social-media .list-inline li{
+  display: inline;
+}
+
+.list-inline i{
+color:#01193C;
+}
+
+.list-inline i:hover{
+  color: red;
+}
+
+.list-inline li i{
+font-size: 100px ;
+}
+
+.card-white ul li {
+  margin-bottom: 10px; 
+}
+
+.card-white ul li {
+  padding-bottom: 10px; 
+}
+
+.list-inline li {
+  display: inline-block; 
+  margin-right: 15px; 
+}
+.list-inline li {
+  display: inline-block; 
+  margin: 0 15px; 
+}
+
+  
